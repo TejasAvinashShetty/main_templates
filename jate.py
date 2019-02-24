@@ -33,12 +33,9 @@ from qutip.operators import spin_Jm, spin_Jp, spin_J_set
 
 from qutip.operators import squeeze, squeezing, displace
 from qutip.operators import qutrit_ops, qdiags
+from qutip mesolve import mesolve, odesolve
 
 
-from qutip.control.grape import plot_grape_control_fields, _overlap 
-from qutip.control.grape import grape_unitary_adaptive, cy_grape_unitary
-from qutip.ui.progressbar import TextProgressBar
-from qutip.ipynbtools import version_table
 #from qutip.operators import phase, zero_oper, enr_destroy, enr_identity
 
 
@@ -48,7 +45,10 @@ from qutip.ipynbtools import version_table
 
 # In[3]:
 
-
+from qutip.control.grape import plot_grape_control_fields, _overlap 
+from qutip.control.grape import grape_unitary_adaptive, cy_grape_unitary
+from qutip.ui.progressbar import TextProgressBar
+from qutip.ipynbtools import version_table
 #from 
 
 
